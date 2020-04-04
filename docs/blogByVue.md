@@ -681,7 +681,17 @@ git pull origin master --allow-unrelated-histories
 ```
 等等，就是这样完美的解决咯！
 
-## 4 用此框架实现个人博客
+
+## 4 github pages解析markdown乱码
+
+遇到这个问题后查了好久都没有相关文章，所以做个记录。
+
+问题的本质还是编码不一致。猜测原因是.md文件从repository发布到github pages后，文件编码会自动由utf-8转为utf-8 with BOM, 区别见：https://blog.csdn.net/legendaryhsl/article/details/78794121。
+
+解决方案：直接将md文件保存为utf-8 with BOM，并修改配置文件_config.yml：设置encoding为utf-8 with BOM。
+
+
+## 5 用此框架实现个人博客
 
 ，，，
 
