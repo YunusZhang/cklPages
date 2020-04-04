@@ -691,6 +691,14 @@ git pull origin master --allow-unrelated-histories
 解决方案：直接将md文件保存为utf-8 with BOM，并修改配置文件_config.yml：设置encoding为utf-8 with BOM。
 
 
+参考文章
+
+https://legolasng.github.io/2016/07/17/blog-on-github-pages-4/
+
+https://zhuanlan.zhihu.com/p/66091977
+
+
+
 ## 5 用此框架实现个人博客
 
 ，，，
